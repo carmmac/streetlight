@@ -2,7 +2,7 @@
   "name": "trueconf",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "1.5.0",
     "axios": "0.21.1",
+    "history": "5.0.1",
     "prop-types": "15.7.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
