@@ -1,3 +1,20 @@
+.main {
+  width: 50%;
+  height: 100%;
+  margin: 100px auto;
+}
+
+.btn {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
+}
+
 .streetlight {
   width: 300px;
   height: 650px;
