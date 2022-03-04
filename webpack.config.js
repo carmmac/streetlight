@@ -7,7 +7,9 @@ module.exports = {
         path: path.resolve(__dirname, 'public')
     },
     devServer: {
-        contentBase: path.resolve(__dirname, 'public'),
+        static: {
+          directory: path.resolve(__dirname, 'public')
+        },
         open: true,
         port: 1337,
         historyApiFallback: true,
